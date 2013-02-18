@@ -1,13 +1,13 @@
 /* General Styles */
 html, body {
   margin: 10px;
-
 }
 
 /* Header CSS */
 
 header {
-  
+  	margin: 0 auto;
+    position: relative;
 	box-shadow: 0px 10px 10px #888888;
 	width:960px;
 	height:200px;
@@ -32,7 +32,7 @@ aside em {
 aside {
 	height:200px;
     position: absolute;
-    left: 260px;
+    left: 241px;
 	border-left: 1px solid #fff;
 }
 	
@@ -138,7 +138,8 @@ aside a:hover {
 
 .content{
 	width:960px;
-	margin: 40px 0 0 0;
+	margin: 0 auto;
+	padding: 30px 0 0 0;
 }
 .content em{
 	font-family: Cardo, arial;
@@ -229,10 +230,7 @@ aside a:hover {
 
 footer{
 	
-	border-right: 1px solid #fff;
-	float: left;
-	margin-bottom: 20px;
-    display: inline;    
+	margin: 0 auto;
 	font-family: arial;
 	font-size: 14px;
 	color: #fff;
@@ -250,7 +248,13 @@ footer{
 	
 	
 }
-
+footer a {
+	color:#fff;
+	text-decoration: none ;
+}
+footer a:hover {
+	color: #fffc00;
+	text-decoration: underline ;
 
 
 
